@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level= logging.INFO, 
+logging.basicConfig(filename='test.log',level= logging.INFO, 
                     format="[%(asctime)s: %(levelname)s]: %(message)s"
                 )
 
@@ -30,7 +30,6 @@ list_of_files = [
     "setup.py"
 ]
 
-print(os.path.exists(f"src/{project_name}"))
 if not os.path.exists(f"src/{project_name}"):
     for filepath in list_of_files:
         filedir, filename = os.path.split(Path(filepath))
