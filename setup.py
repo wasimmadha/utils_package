@@ -3,12 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-<<<<<<< HEAD
 __version__ = "0.0.2"
-=======
-__version__ = "0.0.1"
->>>>>>> 11ec08f2434d761d1b5ad8ad65a0fa23b6364450
-
 REPO_NAME = "utils_package"
 AUTHOR_USER_NAME = "wasimmadha"
 SRC_REPO = "wasim-utils-packed"
